@@ -3,7 +3,7 @@
         <div class="row text-center pt-5">
             <h6 class="text-primary fw-bold">WELCOME TO MEDICCAL</h6>
             <h1 class="title">A Great Place to Receive Care</h1>
-            <div class="">
+            <div class="paragraph-wrapper">
             <p class="hero-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis impedit inventore beatae iusto soluta eveniet doloribus voluptas ab earum debitis laudantium tenetur autem, commodi, magnam aperiam qui laboriosam harum minus minima quibusdam placeat accusamus, libero totam adipisci? Illum, at earum.
             </p>

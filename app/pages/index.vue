@@ -5,4 +5,6 @@
  <Services />
 <Specialties />
 <BookAppoinment />
+<OurDoctors />
+<News />
 </template> 
