@@ -1,0 +1,24 @@
+.hero {
+    width: 100%;
+    min-height: 790px;
+
+    background: url("~/assets/svg/doctor1.svg") no-repeat center center;
+    background-size: cover;
+    background-position: right-center;
+}
+
+.hero-title{
+    font-family: "Yesefa One", serif;
+    color: #1F2B6C;
+    font-size: 48px;
+}
+.hero-subtitle{
+    font-family: "Yesefa One", serif;
+    color: #1F2B6C;
+    font-size: 48px;
+}
+
+.sub{
+    color: #159EEC;
+    font-size: 18px;
+}

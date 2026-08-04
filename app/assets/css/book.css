@@ -1,0 +1,119 @@
+.appointment{
+    background: url("~/assets/svg/Rectangle 33.svg") center/cover no-repeat;
+    min-height: 600px;
+    position: relative;
+}
+.appointment::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255,255,255,.7);
+}
+
+.appointment .container{
+    position: relative;
+    z-index: 2;
+}
+
+.book{
+    
+     font-family: "Yesefa One", serif;
+    color: #159EEC;
+    font-size: 38px;
+}
+
+
+
+/* ==========================
+   APPOINTMENT FORM
+========================== */
+
+.appointment-form {
+    background: #1F2B6C;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 520px;
+    margin-left: auto;
+}
+
+/* Hilangkan padding bawaan bootstrap */
+
+.appointment-form .col-6,
+.appointment-form .col-12 {
+    padding: 0;
+}
+
+/* Input, Select, Textarea */
+
+.appointment-form .form-control,
+.appointment-form .form-select {
+    background: transparent !important;
+    color: #fff !important;
+
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+
+    height: 55px;
+    padding: 15px;
+
+    border-right: 1px solid rgba(255,255,255,.15) !important;
+    border-bottom: 1px solid rgba(255,255,255,.15) !important;
+}
+
+/* Placeholder */
+
+.appointment-form .form-control::placeholder {
+    color: rgba(255,255,255,.8);
+}
+
+/* Select */
+
+.appointment-form .form-select {
+    --bs-form-select-bg-img: none;
+}
+
+/* Option */
+
+.appointment-form option {
+    color: #000;
+}
+
+/* Focus */
+
+.appointment-form .form-control:focus,
+.appointment-form .form-select:focus,
+.appointment-form textarea:focus {
+    background: transparent !important;
+    color: #fff !important;
+    box-shadow: none !important;
+}
+
+/* Textarea */
+
+.appointment-form textarea.form-control {
+    height: 120px;
+    resize: none;
+}
+
+/* Submit */
+
+.submit-btn {
+    width: 100%;
+    height: 55px;
+
+    background: #BFD2F8;
+    color: #1F2B6C;
+
+    border: none;
+
+    font-weight: 600;
+    text-transform: uppercase;
+
+    transition: .3s;
+}
+
+.submit-btn:hover {
+    background: #9DB9F6;
+}
+
