@@ -1,5 +1,5 @@
 <template>
-<nav class="navbar navbar-expand-lg custom-navbar">
+<nav class="navbar navbar-expand-lg custom-navbar fixed-top">
   <div class="container">
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -7,24 +7,29 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Doctors</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">News</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
+       <li class="nav-item">
+  <NuxtLink class="nav-link" to="/">Home</NuxtLink>
+</li>
+
+<li class="nav-item">
+  <NuxtLink class="nav-link" to="/aboutus">About Us</NuxtLink>
+</li>
+
+<li class="nav-item">
+  <NuxtLink class="nav-link" to="/services">Services</NuxtLink>
+</li>
+
+<li class="nav-item">
+  <NuxtLink class="nav-link" to="/doctors">Doctors</NuxtLink>
+</li>
+
+<li class="nav-item">
+  <NuxtLink class="nav-link" to="/news">News</NuxtLink>
+</li>
+
+<li class="nav-item">
+  <NuxtLink class="nav-link" to="/contact">Contact</NuxtLink>
+</li>
        
         <li class="nav-item dropdown">
         

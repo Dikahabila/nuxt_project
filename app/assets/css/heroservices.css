@@ -1,0 +1,17 @@
+.hero-services{
+    width: 100%;
+    height: 250px;
+    background: url("~/assets/svg/Rectangle 3 (2).svg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.hero-title{
+    font-family: "Yesefa One", serif;
+    color: #1F2B6C;
+    font-size: 48px;
+}
