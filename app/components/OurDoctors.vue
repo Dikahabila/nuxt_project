@@ -9,7 +9,7 @@
     <div class="col-4">
   <div class="card" style="width: 18rem;">
   <img src="~/assets/svg/Rectangle 20 (2).svg" class="card-img-top" alt="...">
-  <div class="card-body text-center">
+  <div class="card-doc text-center">
     <p class="card-title">Doctor's name</p>
     <h6 class="card-text fw-bold">NEUROLOGY</h6>
      <div class=" icons d-flex justify-content-center gap-3 pb-3">
@@ -27,7 +27,7 @@
    <div class="col-4">
   <div class="card" style="width: 18rem;">
   <img src="~/assets/svg/Rectangle 20 (1).svg" class="card-img-top" alt="...">
-   <div class="card-body text-center">
+   <div class="card-doc text-center">
     <p class="card-title">Doctor's name</p>
     <h6 class="card-text fw-bold">NEUROLOGY</h6>
      <div class="icons d-flex justify-content-center gap-3 pb-3">
@@ -44,7 +44,7 @@
  <div class="col-4">
   <div class="card" style="width: 18rem;">
   <img src="~/assets/svg/Rectangle 20 (4).svg" class="card-img-top" alt="...">
-  <div class="card-body text-center">
+  <div class="card-doc text-center">
     <p class="card-title">Doctor's name</p>
     <h6 class="card-text fw-bold">NEUROLOGY</h6>
      <div class="icons d-flex justify-content-center gap-3 pb-3">

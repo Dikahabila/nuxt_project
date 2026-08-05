@@ -1,0 +1,49 @@
+.footer{
+    background-color: #1F2B6C;
+    color: #ffffff;
+     padding: 70px 0 50px;
+     
+}
+
+.list-unstyled a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-title{
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+.footer-title-one{
+    color: #9DB9F6;
+    font-family: "Yesefa One", serif;
+}
+
+.bi-linkedin,
+.bi-facebook,
+.bi-instagram{
+    color: #9DB9F6;
+}
+.footer hr{
+   
+    border: 1px solid #9DB9F6;
+}
+.footer-newsletter .form-control{
+    background-color: #BFD2F8;
+    border: none;
+    color: #1F2B6C;
+    padding: 12px 15px;
+
+}
+
+
+.footer-newsletter .form-control::placeholder{
+    color: #1F2B6C;
+}
+.footer-btn{
+    background-color: #BFD2F8;
+    color: #1F2B6C;
+    border: none;
+    border-radius: 5px;
+}

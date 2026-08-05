@@ -7,4 +7,7 @@
 <BookAppoinment />
 <OurDoctors />
 <News />
+<Contact />
+<Footer />
 </template> 
+

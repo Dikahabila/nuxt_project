@@ -109,7 +109,9 @@
 </div>
     </div>
   </div>  
-
+<div class="dots text-center">
+<i class="bi bi-three-dots fs-1"></i>
+</div>
   </template>
  <script setup>
 import '~/assets/css/news.css'

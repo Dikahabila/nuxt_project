@@ -1,0 +1,51 @@
+.card-title-contact{
+    color: #1F2B6C;
+    font-size: 18px;
+}
+
+.card{
+    border-radius: 5px;
+}
+
+.contact-card-body{
+    background-color: #9DB9F6;
+    border-radius: 5px;
+}
+.contact-card-loc{
+    background-color: #1F2B6C;
+    border-radius: 5px;
+}
+.bi-geo-alt{
+    color: #9DB9F6;
+}
+
+.bi-clock,
+.bi-envelope,
+.bi-telephone{
+    color: #1F2B6C;
+}
+.contact-subtitle{
+    color: #1F2B6C;
+}
+.location-subtitle{
+    color:white
+}
+
+.card-title-location{
+    color: white;
+    font-size: 18px;
+}
+
+.location-title{
+    color: #9DB9F6;
+}
+
+.card-title{
+    font-size: 18px;
+    color: #1F2B6C;
+}
+
+.email-subtitle,
+.working-subtitle{
+    color: #1F2B6C;
+}

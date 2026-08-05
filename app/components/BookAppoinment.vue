@@ -1,6 +1,6 @@
 <template>
-    <section class="appointment py-5">
-        <div class="container pt-5">
+    <section class="appointment py-5 mt-5">
+        <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <h2 class="book">Book an Appointment</h2>
