@@ -5,9 +5,12 @@
 .card-text{
     color:#1F2B6C;
 }
-.icons{
+.icons i {
     color: #1F2B6C;
+    font-size: 18px;
 }
+
+
 .btn-profile{
     background: #2E3A7A;
     color: #fff;

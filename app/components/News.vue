@@ -5,7 +5,7 @@
             
   </div>
   <div class="container">
-    <div class="row g-4 justify-content-center">
+    <div class="row g-4 justify-content-center pt-3">
         <div class="col-lg-6">
             <div class="card mb-3 border-0 shadow-sm" style="max-width: 540px;">
   <div class="row g-4">

@@ -53,6 +53,7 @@
       <i class="bi bi-instagram fs-6"></i>
     </div>
     <button class="btn btn-profile w-100">
+      
       View Profile
     </button>
   </div>
@@ -62,6 +63,7 @@
 </div>
 <div class="dots text-center">
 <i class="bi bi-three-dots fs-1"></i>
+
 </div>
  </template>
  <script setup>
