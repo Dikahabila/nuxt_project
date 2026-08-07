@@ -23,7 +23,7 @@
 <style>
 .hero-contact {
     width: 100%;
-    height: 250px;
+    height: 300px;
     background: url("~/assets/svg/rectangle-3-3.svg") no-repeat center center;
     background-size: cover;
     position: relative;

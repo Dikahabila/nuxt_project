@@ -1,5 +1,5 @@
 <template>
-    <section class="hero-news">
+    <section class="hero-contact">
   <div class="container">
     <div class="row align-items-center">
 
@@ -7,7 +7,7 @@
        <div class="row align-items-center" style="min-height: 100vh;">
       <div class="col-lg-6">
 <h1 class="display-5 fw-bold hero-title">
-  Blog Posts
+   Book And Appointment
 </h1>   
             
       </div>
@@ -20,14 +20,11 @@
     </div>
   </section>
 </template>
-<script setup>
-import '~/assets/css/heroabout.css'
-</script>
- <style>
-.hero-news {
+<style>
+.hero-contact {
     width: 100%;
     height: 300px;
-    background: url("~/assets/svg/rectangle-3-4.svg") no-repeat center center;
+    background: url("~/assets/svg/rectangle-3-7.svg") no-repeat center center;
     background-size: cover;
     position: relative;
 
@@ -36,7 +33,7 @@ import '~/assets/css/heroabout.css'
     overflow: hidden;
 }
 
-.hero-news::before {
+.hero-contact::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -50,4 +47,5 @@ import '~/assets/css/heroabout.css'
     font-size: 48px;
     position: relative;
     z-index: 2;
-}</style>
+}
+</style>

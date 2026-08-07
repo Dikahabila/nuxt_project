@@ -52,9 +52,12 @@
   </a>
 
   <!-- Appointment Button -->
-  <button class="btn appointment-btn px-4 rounded-pill">
-    Appointment
-  </button>
+  <NuxtLink
+  to="/bookandappoinment"
+  class="btn appointment-btn px-4 rounded-pill"
+>
+  Appointment
+</NuxtLink>
 </div>
     </div>
   </div>

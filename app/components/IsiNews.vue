@@ -33,9 +33,10 @@
 
     <h5 class="card-title card-isi-news">A passion for putting patients first</h5>
     <p class="card-text card-text-isi-news"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare ornare Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et....</p>
-    <button class="btn read-btn px-4 rounded-pill">Read More
-        <i class="bi bi-arrow-right px-1"></i>
-    </button>
+    <NuxtLink to="/isiartikel" class="btn read-btn px-4 rounded-pill">
+  Read More
+  <i class="bi bi-arrow-right px-1"></i>
+</NuxtLink>
   </div>
 </div>
            <div class="card mb-3 border-0">
@@ -69,9 +70,10 @@
 
     <h5 class="card-title card-isi-news">A passion for putting patients first</h5>
     <p class="card-text card-text-isi-news"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare ornare Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et....</p>
-    <button class="btn read-btn px-4 rounded-pill">Read More
-        <i class="bi bi-arrow-right px-1"></i>
-    </button>
+   <NuxtLink to="/isiartikel" class="btn read-btn px-4 rounded-pill">
+  Read More
+  <i class="bi bi-arrow-right px-1"></i>
+</NuxtLink>
   </div>
 </div>
            <div class="card mb-3 border-0">
@@ -105,9 +107,10 @@
 
     <h5 class="card-title card-isi-news">A passion for putting patients first</h5>
     <p class="card-text card-text-isi-news"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare ornare Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et....</p>
-    <button class="btn read-btn px-4 rounded-pill">Read More
-        <i class="bi bi-arrow-right px-1"></i>
-    </button>
+    <NuxtLink to="/isiartikel" class="btn read-btn px-4 rounded-pill">
+  Read More
+  <i class="bi bi-arrow-right px-1"></i>
+</NuxtLink>
   </div>
 </div>
            <div class="card mb-3 border-0">
@@ -141,9 +144,10 @@
 
     <h5 class="card-title card-isi-news">A passion for putting patients first</h5>
     <p class="card-text card-text-isi-news"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare ornare Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et....</p>
-    <button class="btn read-btn px-4 rounded-pill">Read More
-        <i class="bi bi-arrow-right px-1"></i>
-    </button>
+    <NuxtLink to="/isiartikel" class="btn read-btn px-4 rounded-pill">
+  Read More
+  <i class="bi bi-arrow-right px-1"></i>
+</NuxtLink>
   </div>
 </div>
 </div>

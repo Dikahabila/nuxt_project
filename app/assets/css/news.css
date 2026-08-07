@@ -4,8 +4,25 @@
 
 .bi-eye{
     color: #526AE9;
+    z-index: 2;
+    position: relative;
 }
 
 .bi-heart{
     color: #E2315C;
+    z-index: 2;
+    position: relative;
+}
+
+.bi-person{
+    z-index: 2;
+    position: relative;
+}
+.bi-calendar3{
+    z-index: 2;
+    position: relative;
+}
+.article-info small{
+    position: relative;
+    z-index: 2;
 }
