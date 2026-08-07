@@ -10,7 +10,7 @@
             <a class="learn text-decoration-none" href="#">Learn More</a>
             <i class="bi bi-arrow-right px-1"></i>
             <div class="gambar-welcome pt-5 heigh=">
-                <img src="~/assets/svg/Blackdoctors 1.svg" class="img-fluid justify-content-center" alt="...">
+                <img src="~/assets/svg/blackdoctors-1.svg" class="img-fluid justify-content-center" alt="...">
             </div>
             </div>
         </div>

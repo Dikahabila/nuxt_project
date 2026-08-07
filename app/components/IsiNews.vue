@@ -75,7 +75,7 @@
   </div>
 </div>
            <div class="card mb-3 border-0">
-  <img src="~/assets/svg/foto-news3.svg" class="card-img-top" alt="...">
+  <img src="~/assets/svg/foto-news-3.svg" class="card-img-top" alt="...">
    
 
   <div class="card-body">

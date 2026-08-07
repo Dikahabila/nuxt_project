@@ -32,11 +32,11 @@
       </div>
         <!-- Kanan -->
       <div class="col-lg-6 ps-5">
-        <img src="~/assets/svg/Rectangle 13.svg"
+        <img src="~/assets/svg/rectangle-13.svg"
              class="img-fluid mb-3 rounded shadow-sm"
              alt="Doctor">
 
-        <img src="~/assets/svg/Rectangle 14.svg"
+        <img src="~/assets/svg/rectangle-14.svg"
              class="img-fluid rounded shadow-sm"
              alt="Doctors">
       </div>

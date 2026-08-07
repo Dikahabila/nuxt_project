@@ -27,7 +27,7 @@ import '~/assets/css/heroabout.css'
 .hero-news {
     width: 100%;
     height: 250px;
-    background: url("~/assets/svg/Rectangle 3 (4).svg") no-repeat center center;
+    background: url("~/assets/svg/rectangle-3-4.svg") no-repeat center center;
     background-size: cover;
     position: relative;
 

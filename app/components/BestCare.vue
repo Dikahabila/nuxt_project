@@ -6,7 +6,7 @@
         <!-- Kiri (Gambar) -->
         <div class="col-lg-6 text-center">
           <img
-            src="~/assets/svg/Rectangle 3 (1).svg"
+            src="~/assets/svg/rectangle-3-1.svg"
             class="img-fluid rounded shadow-sm"
             alt="Doctor"
           >
