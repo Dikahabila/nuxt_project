@@ -17,9 +17,10 @@
         </h1>
         
             <div class="btn-apo pt-4">
-        <button class="btn appointment-btn px-4 rounded-pill">
-    Our Services
-  </button>
+      <NuxtLink
+  to="/services"
+  class="btn appointment-btn px-4 rounded-pill"
+>Our Services</NuxtLink>
   </div>
       </div>
       </div>

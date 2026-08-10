@@ -5,7 +5,7 @@
       <!-- Kiri : Form -->
       <div class="col-lg-6">
 
-       <h5 class="card-title card-isi-news">Book And appointment</h5> 
+       <h5 class="card-title card-isi-news">Book And Appointment</h5> 
 
         <p class="mb-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et.
