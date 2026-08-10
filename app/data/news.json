@@ -1,0 +1,42 @@
+{
+  "subtitle": "BETTER INFORMATION, BETTER HEALTH",
+  "title": "News",
+  "posts": [
+    {
+      "id": 1,
+      "image": "/svg/foto-news1.svg",
+      "date": "Monday 05, September 2026",
+      "author": "By Author",
+      "title": "This Article’s Title goes Here, but not too long.",
+      "views": 86,
+      "likes": 68
+    },
+    {
+      "id": 2,
+      "image": "/svg/foto-news2.svg",
+      "date": "Monday 05, September 2021",
+      "author": "By Author",
+      "title": "This Article’s Title goes Here, but not too long.",
+      "views": 86,
+      "likes": 68
+    },
+    {
+      "id": 3,
+      "image": "/svg/foto-news-3.svg",
+      "date": "Monday 05, September 2021",
+      "author": "By Author",
+      "title": "This Article’s Title goes Here, but not too long.",
+      "views": 86,
+      "likes": 68
+    },
+    {
+      "id": 4,
+      "image": "/svg/foto-news4.svg",
+      "date": "Monday 05, September 2021",
+      "author": "By Author",
+      "title": "This Article’s Title goes Here, but not too long.",
+      "views": 86,
+      "likes": 68
+    }
+  ]
+}

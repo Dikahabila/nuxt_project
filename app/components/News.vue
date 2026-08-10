@@ -1,118 +1,115 @@
 <template>
+
+  <!-- Section Title -->
   <div class="row text-center pt-5">
-    <h6 class="text-primary fw-bold">BETTER INFORMATION, BETTER HEALTH</h6>
-            <h1 class="title">News</h1>
-            
-  </div>
-  <div class="container">
-    <div class="row g-4 justify-content-center pt-3">
-        <div class="col-lg-6">
-            <div class="card mb-3 border-0 shadow-sm" style="max-width: 540px;">
-  <div class="row g-4">
-    <div class="col-md-4">
-      <img src="~/assets/svg/foto-news1.svg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body-news mx-2">
-        <p class="card-title-news">Monday 05, September 2021 | By Author</p>
-        <h6 class="card-text-news">This Article’s Title goes Here, but not too long.</h6>
-    <div class="d-flex gap-3">
-  <div class="d-flex align-items-center">
-    <i class="bi bi-eye"></i>
-    <span class="ms-2">86</span>
-  </div>
-  <div class="d-flex align-items-center">
-    <i class="bi bi-heart"></i>
-    <span class="ms-2">68</span>
+    <h6 class="text-primary fw-bold">
+      {{ newsData.subtitle }}
+    </h6>
+
+    <h1 class="title">
+      {{ newsData.title }}
+    </h1>
   </div>
 
-</div>
-</div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="col-lg-6">
- <div class="card mb-3 border-0 shadow-sm" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="~/assets/svg/foto-news2.svg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body-news mx-2">
-        <p class="card-title-news">Monday 05, September 2021 | By Author</p>
-        <h6 class="card-text-news">This Article’s Title goes Here, but not too long.</h6>
-        <div class="d-flex gap-3">
-  <div class="d-flex align-items-center">
-    <i class="bi bi-eye"></i>
-    <span class="ms-2">86</span>
-  </div>
-  <div class="d-flex align-items-center">
-    <i class="bi bi-heart"></i>
-    <span class="ms-2">68</span>
-  </div>
-  </div>
-      </div>
-    </div>
-    </div>
-  </div>
-</div>
-<div class="col-lg-6">
- <div class="card mb-3 border-0 shadow-sm" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="~/assets/svg/foto-news-3.svg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body-news mx-2">
-        <p class="card-title-news">Monday 05, September 2021 | By Author</p>
-        <h6 class="card-text-news">This Article’s Title goes Here, but not too long.</h6>
-        <div class="d-flex gap-3">
-  <div class="d-flex align-items-center">
-    <i class="bi bi-eye"></i>
-    <span class="ms-2">86</span>
-  </div>
-  <div class="d-flex align-items-center">
-    <i class="bi bi-heart"></i>
-    <span class="ms-2">68</span>
-  </div>
-  </div>
-  </div>
-  </div>
-    </div>
-  </div>
-</div>
-<div class="col-lg-6">
- <div class="card mb-3 border-0 shadow-sm" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="~/assets/svg/foto-news4.svg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body-news mx-2">
-        <p class="card-title-news">Monday 05, September 2021 | By Author</p>
-        <h6 class="card-text-news">This Article’s Title goes Here, but not too long.</h6>
-        <div class="d-flex gap-3">
-  <div class="d-flex align-items-center">
-    <i class="bi bi-eye"></i>
-    <span class="ms-2">86</span>
-  </div>
-  <div class="d-flex align-items-center">
-    <i class="bi bi-heart"></i>
-    <span class="ms-2">68</span>
-  </div>
+
+  <!-- News Cards -->
+  <div class="container">
+
+    <div class="row g-4 justify-content-center pt-3">
+
+      <div
+        v-for="post in newsData.posts"
+        :key="post.id"
+        class="col-lg-6"
+      >
+
+        <div
+          class="card mb-3 border-0 shadow-sm"
+          style="max-width: 540px;"
+        >
+
+          <div class="row g-0">
+
+            <!-- Image -->
+            <div class="col-md-4">
+
+              <img
+                :src="post.image"
+                class="img-fluid rounded-start"
+                :alt="post.title"
+              >
+
+            </div>
+
+
+            <!-- Content -->
+            <div class="col-md-8">
+
+              <div class="card-body-news mx-2">
+
+                <!-- Date & Author -->
+                <p class="card-title-news">
+                  {{ post.date }} | {{ post.author }}
+                </p>
+
+
+                <!-- Title -->
+                <h6 class="card-text-news">
+                  {{ post.title }}
+                </h6>
+
+
+                <!-- Views & Likes -->
+                <div class="d-flex gap-3">
+
+                  <div class="d-flex align-items-center">
+
+                    <i class="bi bi-eye"></i>
+
+                    <span class="ms-2">
+                      {{ post.views }}
+                    </span>
+
+                  </div>
+
+
+                  <div class="d-flex align-items-center">
+
+                    <i class="bi bi-heart"></i>
+
+                    <span class="ms-2">
+                      {{ post.likes }}
+                    </span>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
+
+
+  <!-- Dots -->
+  <div class="dots text-center">
+    <i class="bi bi-three-dots fs-1"></i>
   </div>
-</div>
-    </div>
-  </div>  
-<div class="dots text-center">
-<i class="bi bi-three-dots fs-1"></i>
-</div>
-  </template>
- <script setup>
+
+</template>
+
+
+<script setup>
+import newsData from '../data/news.json'
+
 import '~/assets/css/news.css'
 </script>

@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="row pt-4">
-            <div class="col-lg-8">
+            <div class="col-lg-8 mx-auto mb-4">
            <div class="card mb-3 border-0">
   <img src="~/assets/svg/foto-news1.svg" class="card-img-top" alt="...">
    

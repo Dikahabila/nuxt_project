@@ -1,0 +1,50 @@
+{
+  "subtitle": "GET IN TOUCH",
+  "title": "Contact",
+  "cards": [
+    {
+      "icon": "bi-telephone",
+      "title": "EMERGENCY",
+      "theme": "contact-card-body",
+      "titleClass": "card-title-contact",
+      "subtitleClass": "contact-subtitle",
+      "items": [
+        "(037) 681-812-888",
+        "(037) 666-331-894"
+      ]
+    },
+    {
+      "icon": "bi-geo-alt",
+      "title": "LOCATION",
+      "theme": "contact-card-loc",
+      "titleClass": "card-title-location",
+      "subtitleClass": "location-subtitle",
+      "items": [
+        "0123 Some place",
+        "9876 Some country"
+      ]
+    },
+    {
+      "icon": "bi-envelope",
+      "title": "EMAIL",
+      "theme": "contact-card-body",
+      "titleClass": "card-title",
+      "subtitleClass": "email-subtitle",
+      "items": [
+        "fildinese@gmail.com",
+        "mstudios@gmail.com"
+      ]
+    },
+    {
+      "icon": "bi-clock",
+      "title": "WORKING HOUSE",
+      "theme": "contact-card-body",
+      "titleClass": "card-title",
+      "subtitleClass": "working-subtitle",
+      "items": [
+        "(037) 681-812-665",
+        "(037) 666-331-894"
+      ]
+    }
+  ]
+}
