@@ -3,11 +3,11 @@
   <!-- Section Title -->
   <div class="row text-center pt-5">
     <h6 class="text-primary fw-bold">
-      {{ newsData.subtitle }}
+      BETTER INFORMATION, BETTER HEALTH
     </h6>
 
     <h1 class="title">
-      {{ newsData.title }}
+      News
     </h1>
   </div>
 
@@ -18,7 +18,7 @@
     <div class="row g-4 justify-content-center pt-3">
 
       <div
-        v-for="post in newsData.posts"
+        v-for="post in articles"
         :key="post.id"
         class="col-lg-6"
       >
@@ -63,27 +63,26 @@
                 <div class="d-flex gap-3">
 
                   <div class="d-flex align-items-center">
-
                     <i class="bi bi-eye"></i>
 
                     <span class="ms-2">
                       {{ post.views }}
                     </span>
-
                   </div>
 
 
                   <div class="d-flex align-items-center">
-
                     <i class="bi bi-heart"></i>
 
                     <span class="ms-2">
                       {{ post.likes }}
                     </span>
-
                   </div>
 
                 </div>
+
+
+            
 
               </div>
 
@@ -109,7 +108,9 @@
 
 
 <script setup>
-import newsData from '../data/news.json'
+
+import articles from '~/data/isi-news.json'
 
 import '~/assets/css/news.css'
+
 </script>

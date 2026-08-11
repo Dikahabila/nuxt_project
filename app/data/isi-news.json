@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "image": "/svg/foto-news1.svg",
+    "title": "The Importance of Regular Health Check-Ups",
+    "description": "Regular health check-ups can help detect potential health problems early.",
+    "content": "Regular health check-ups are an important part of maintaining good health. Even when a person feels healthy, routine examinations can help doctors identify certain health risks or conditions at an early stage. Early detection can help patients and healthcare professionals make appropriate decisions about further care.\n\nA general health check may include checking blood pressure, blood sugar, cholesterol levels, and other measurements depending on a person's age, medical history, and risk factors.",
+    "date": "Monday 05, September 2026",
+    "author": "By Medical Team",
+    "views": 68,
+    "likes": 86
+  },
+  {
+    "id": 2,
+    "image": "/svg/foto-news2.svg",
+    "title": "How a Balanced Diet Supports Your Health",
+    "description": "Eating a variety of nutritious foods provides the body with the energy and nutrients it needs.",
+    "content": "A balanced diet provides the body with important nutrients needed for energy, growth, and normal body functions. A healthy eating pattern generally includes vegetables, fruits, whole grains, and protein sources.\n\nEating a variety of foods is useful because different foods provide different nutrients. Building consistent healthy eating habits can support overall health.",
+    "date": "Wednesday 08, September 2026",
+    "author": "By Nutrition Team",
+    "views": 82,
+    "likes": 94
+  },
+  {
+    "id": 3,
+    "image": "/svg/foto-news-3.svg",
+    "title": "Why Quality Sleep Matters",
+    "description": "Getting enough quality sleep helps the body and mind recover.",
+    "content": "Sleep is an important part of maintaining physical and mental well-being. During sleep, the body carries out processes that support recovery, while the brain works on functions related to memory, learning, and emotional regulation.\n\nGood sleep habits include maintaining a consistent sleep schedule and creating a comfortable sleeping environment.",
+    "date": "Friday 10, September 2026",
+    "author": "By Medical Team",
+    "views": 74,
+    "likes": 88
+  },
+  {
+    "id": 4,
+    "image": "/svg/foto-news4.svg",
+    "title": "Simple Ways to Stay Physically Active",
+    "description": "Regular physical activity can support heart health, muscle strength, and overall well-being.",
+    "content": "Physical activity is an important part of a healthy lifestyle. Regular movement can support cardiovascular health, muscle strength, bone health, mobility, and overall well-being.\n\nPhysical activity can include walking, cycling, swimming, recreational activities, or structured exercise. The appropriate type and amount of activity can vary depending on a person's age and health condition.",
+    "date": "Monday 13, September 2026",
+    "author": "By Health Team",
+    "views": 91,
+    "likes": 102
+  }
+]
