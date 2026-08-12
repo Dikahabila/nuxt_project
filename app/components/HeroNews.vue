@@ -1,22 +1,13 @@
 <template>
-    <section class="hero-news">
-  <div class="container">
-    <div class="row align-items-center">
-
-      <!-- Teks -->
-       <div class="row align-items-center" style="min-height: 100vh;">
-      <div class="col-lg-6">
-<h1 class="display-5 fw-bold hero-title">
-  Blog Posts
-</h1>   
-            
+  <section class="hero-news">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold hero-title">
+            Blog Posts
+          </h1>   
+        </div>
       </div>
-      </div>
-
-      <!-- Gambar -->
-      
-
-    </div>
     </div>
   </section>
 </template>

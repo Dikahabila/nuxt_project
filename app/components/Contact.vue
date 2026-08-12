@@ -1,13 +1,15 @@
 <template>
   <!-- Judul -->
-  <div class="row text-center pt-5">
-    <h6 class="text-primary fw-bold">
-      {{ contactData.subtitle }}
-    </h6>
+  <div class="container">
+    <div class="row text-center pt-5">
+      <h6 class="text-primary fw-bold">
+        {{ contactData.subtitle }}
+      </h6>
 
-    <h1 class="title">
-      {{ contactData.title }}
-    </h1>
+      <h1 class="title">
+        {{ contactData.title }}
+      </h1>
+    </div>
   </div>
 
   <!-- Cards -->
@@ -17,7 +19,7 @@
       <div
         v-for="(card, index) in contactData.cards"
         :key="index"
-        class="col-lg-3"
+        class="col-12 col-sm-6 col-lg-3"
       >
 
         <div class="card w-75 mx-auto">

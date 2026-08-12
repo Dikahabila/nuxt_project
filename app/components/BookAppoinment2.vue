@@ -194,5 +194,17 @@ import '~/assets/css/book.css'
     font-size: 38px;
 }
 
+@media (max-width: 576px) {
+  .schedule-card {
+    padding: 20px 15px;
+  }
+  .schedule-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .emergency p {
+    font-size: 24px;
+  }
+}
 
 </style>

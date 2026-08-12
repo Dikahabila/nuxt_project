@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+img, svg {
+    max-width: 100%;
+    height: auto;
+}
+
 .paragraph-wrapper {
     max-width: 600px;   
     margin: 0 auto;     
@@ -7,8 +13,4 @@
 .hero-text {
     text-align: center;
     line-height: 1.8;
-}
-
- 
-
- 
+}

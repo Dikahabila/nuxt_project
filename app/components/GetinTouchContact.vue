@@ -1,7 +1,7 @@
 <template>
   <div class="container py-5">
     <div class="row justify-content-center">
-       <div class="mb-4 ms-5">
+       <div class="mb-4 ms-lg-5">
     <h6 class="text-primary fw-bold">GET IN TOUCH</h6>
             <h1 class="title">Contact</h1> 
 </div>
@@ -45,7 +45,7 @@
   <div class="row g-3">
 
     <!-- Emergency -->
-    <div class="col-lg-5">
+    <div class="col-12 col-sm-6">
       <div class="card h-100">
         <div class="card-body contact-card-body">
           <div class="pt-4">
@@ -68,7 +68,7 @@
     </div>
 
     <!-- Location -->
-    <div class="col-lg-5">
+    <div class="col-12 col-sm-6">
       <div class="card h-100">
         <div class="card-body contact-card-loc">
           <div class="pt-4">
@@ -91,7 +91,7 @@
     </div>
 
     <!-- Email -->
-    <div class="col-lg-5">
+    <div class="col-12 col-sm-6">
       <div class="card h-100">
         <div class="card-body contact-card-body">
           <div class="pt-4">
@@ -114,7 +114,7 @@
     </div>
 
     <!-- Working Hours -->
-    <div class="col-lg-5">
+    <div class="col-12 col-sm-6">
       <div class="card h-100">
         <div class="card-body contact-card-body">
           <div class="pt-4">

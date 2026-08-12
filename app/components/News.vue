@@ -1,14 +1,16 @@
 <template>
 
   <!-- Section Title -->
-  <div class="row text-center pt-5">
-    <h6 class="text-primary fw-bold">
-      BETTER INFORMATION, BETTER HEALTH
-    </h6>
+  <div class="container">
+    <div class="row text-center pt-5">
+      <h6 class="text-primary fw-bold">
+        BETTER INFORMATION, BETTER HEALTH
+      </h6>
 
-    <h1 class="title">
-      News
-    </h1>
+      <h1 class="title">
+        News
+      </h1>
+    </div>
   </div>
 
 

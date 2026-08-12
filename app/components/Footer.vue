@@ -1,14 +1,14 @@
 <template>
     <footer class="footer mt-5">
   <div class="container">
-    <div class="row align-items-start">
- <div class="col-lg-3">
+    <div class="row align-items-start g-4">
+ <div class="col-12 col-md-6 col-lg-3">
     <h1 class="footer-title-one">MEDDICAL</h1>
     <p>Leading the Way in Medical
 Execellence, Trusted Care.</p>
 
    </div>
-   <div class="col-lg-3">
+   <div class="col-12 col-md-6 col-lg-3">
   <h5 class="footer-title">Important Links</h5>
 
   <ul class="list-unstyled">
@@ -18,7 +18,7 @@ Execellence, Trusted Care.</p>
     <li><a href="#">About Us</a></li>
   </ul>
 </div>
-   <div class="col-lg-3">
+   <div class="col-12 col-md-6 col-lg-3">
   <h5 class="footer-title">Contact Us</h5>
 
   <ul class="list-unstyled">
@@ -28,7 +28,7 @@ Execellence, Trusted Care.</p>
     <li><a href="#">Some country</a></li>
   </ul>
 </div>
-   <div class="col-lg-3">
+   <div class="col-12 col-md-6 col-lg-3">
      <h5 class="footer-title">NewsLetter</h5>
   <div class="input-group pt-2 footer-newsletter">
     <input type="email" class="form-control" placeholder="Enter your email address">
@@ -37,21 +37,21 @@ Execellence, Trusted Care.</p>
     </button>
 </div>
 </div>
-<hr>
-<div class="row align-items-center">
+</div>
+<hr class="my-4">
+<div class="row align-items-center text-center text-lg-start">
 
-    <div class="col-lg-6">
+    <div class="col-lg-6 mb-3 mb-lg-0">
         © 2021 Hospital’s name All Rights Reserved by PNTEC-LTD
     </div>
 
-    <div class="col-lg-6 text-end d-flex justify-content-end gap-3">
+    <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end gap-3">
          <i class="bi bi-linkedin fs-6"></i>
       <i class="bi bi-facebook fs-6"></i>
       <i class="bi bi-instagram fs-6"></i>
     </div>
 
 </div>
-  </div>
   </div>
 </footer>
 </template>

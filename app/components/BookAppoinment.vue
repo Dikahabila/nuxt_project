@@ -12,9 +12,6 @@
                     <div class="appointment-form">
                         <div class="row g-0">
 
-  <div class="appointment-form">
-  <div class="row g-0">
-
     <div class="col-6">
       <input type="text" class="form-control" placeholder="Name">
     </div>
@@ -65,8 +62,6 @@
   </div>
 </div>
 
-</div>
-</div>
                 </div>
             </div>
         </div>

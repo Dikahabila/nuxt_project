@@ -40,7 +40,7 @@
 
       <!-- Doctor 2 -->
       <div class="col-12 col-md-6 col-lg-4">
-        <div class="card w-80">
+        <div class="card w-100">
           <img
             src="~/assets/svg/rectangle-20-1.svg"
             class="card-img-top"
@@ -66,7 +66,7 @@
 
       <!-- Doctor 3 -->
       <div class="col-12 col-md-6 col-lg-4">
-        <div class="card w-80">
+        <div class="card w-100">
           <img
             src="~/assets/svg/rectangle-20-4.svg"
             class="card-img-top"

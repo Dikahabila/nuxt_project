@@ -1,8 +1,10 @@
 <template>
-  <div class="row text-center pt-5">
-    <h6 class="text-primary fw-bold">CARE YOU CAN BELIEVE IN</h6>
-            <h1 class="title">Our Services</h1>
-  </div>  
+  <div class="container">
+    <div class="row text-center pt-5">
+      <h6 class="text-primary fw-bold">CARE YOU CAN BELIEVE IN</h6>
+      <h1 class="title">Our Services</h1>
+    </div>  
+  </div>
   <div class="welcome py-5">
     <div class="container">
         <div class="row align-items-center">
@@ -31,7 +33,7 @@
         </p>
       </div>
         <!-- Kanan -->
-      <div class="col-lg-6 ps-5">
+      <div class="col-lg-6 ps-lg-5">
         <img src="~/assets/svg/rectangle-13.svg"
              class="img-fluid mb-3 rounded shadow-sm"
              alt="Doctor">

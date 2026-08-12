@@ -16,10 +16,10 @@
   A passion for putting patients first
 </h5>
 
-<div class="row">
+<div class="row g-2">
 
   <!-- Kolom 1 -->
-  <div class="col-4">
+  <div class="col-12 col-md-4">
     <p>
       <i class="bi bi-circle-fill text-primary me-2"></i>
       A Passion for Healing
@@ -32,7 +32,7 @@
   </div>
 
   <!-- Kolom 2 -->
-  <div class="col-4">
+  <div class="col-12 col-md-4">
     <p>
       <i class="bi bi-circle-fill text-primary me-2"></i>
       A Legacy of Excellence
@@ -45,7 +45,7 @@
   </div>
 
   <!-- Kolom 3 -->
-  <div class="col-4">
+  <div class="col-12 col-md-4">
     <p>
       <i class="bi bi-circle-fill text-primary me-2"></i>
       Believe in Us
