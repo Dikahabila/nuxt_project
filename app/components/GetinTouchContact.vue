@@ -1,9 +1,9 @@
 <template>
   <div class="container py-5">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center r">
        <div class="mb-4 ms-lg-5">
-    <h6 class="text-primary fw-bold">GET IN TOUCH</h6>
-            <h1 class="title">Contact</h1> 
+    <h6 class="text-primary fw-bold text-center">GET IN TOUCH</h6>
+            <h1 class="title text-center">Contact</h1> 
 </div>
          <div class="col-xl-10">
       <div class="row g-4">
