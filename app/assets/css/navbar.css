@@ -20,3 +20,85 @@
     color: white;
     font-size: 20px;
 }
+
+/* ================================
+   SIDEBAR / OFFCANVAS (MOBILE & TABLET < 992px)
+   ================================ */
+
+.mobile-sidebar{
+    width: 300px;
+    max-width: 80vw;
+    background-color: #ffffff;
+}
+
+/* Cegah horizontal overflow saat offcanvas render/animasi */
+body{
+    overflow-x: hidden;
+}
+
+.mobile-sidebar .offcanvas-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 1.25rem 0.5rem;
+    border-bottom: 1px solid #eee;
+    color: #1F2B6C;
+}
+
+.mobile-sidebar .btn-close-custom{
+    background: transparent;
+    border: none;
+    font-size: 1.25rem;
+    color: #1F2B6C;
+    line-height: 1;
+    padding: 0.25rem;
+}
+
+.mobile-sidebar .offcanvas-body{
+    padding: 1.25rem;
+}
+
+.sidebar-nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.sidebar-nav li{
+    width: 100%;
+}
+
+.sidebar-link{
+    display: block;
+    padding: 0.75rem 0.5rem;
+    color: #1F2B6C;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid #f0f0f0;
+    transition: color 0.2s ease;
+}
+
+.sidebar-link:hover,
+.sidebar-link.router-link-active{
+    color: #4C6FE0;
+}
+
+.sidebar-appointment-btn{
+    color: #1F2B6C;
+    font-weight: 600;
+}
+
+/* Pastikan hamburger mobile berwarna putih agar kontras dgn .custom-navbar */
+.navbar-toggler{
+    border: none;
+    box-shadow: none;
+}
+
+/* Overlay/backdrop dim sudah otomatis disediakan Bootstrap (.offcanvas-backdrop),
+   tidak perlu CSS tambahan kecuali ingin mengatur opacity manual */
+.offcanvas-backdrop.show{
+    opacity: 0.5;
+}
