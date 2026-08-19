@@ -102,3 +102,7 @@ body{
 .offcanvas-backdrop.show{
     opacity: 0.5;
 }
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
