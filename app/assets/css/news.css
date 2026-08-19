@@ -26,3 +26,8 @@
     position: relative;
     z-index: 2;
 }
+
+.news-card{
+    cursor: pointer;
+}
+

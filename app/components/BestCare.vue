@@ -13,7 +13,7 @@
         </div>
 
         <!-- Kanan (Teks) -->
-        <div class="col-lg-6">
+        <div class="col-lg-6 pt-4">
           <h6 class=" text-primary fw-bold">WELCOME TO HOSPITAL NAME</h6>
           <h1 class="display-5 fw-bold hero-title">Best Care for You Good Health</h1>  
 

@@ -24,7 +24,10 @@
         :key="post.id"
         class="col-lg-6"
       >
-
+<NuxtLink
+  :to="`/isiartikel/${post.id}`"
+  class="text-decoration-none"
+>
         <div
           class="card mb-3 border-0 shadow-sm"
           style="max-width: 540px;"
@@ -93,6 +96,7 @@
           </div>
 
         </div>
+        </NuxtLink>
 
       </div>
 
