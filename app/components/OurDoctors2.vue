@@ -85,7 +85,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-12 col-md-6 col-lg-4"  v-show="showAll">
         <div class="card w-100">
           <img
             src="~/assets/svg/rectangle-20-2.svg"
@@ -109,7 +109,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-12 col-md-6 col-lg-4"  v-show="showAll">
         <div class="card w-100">
           <img
             src="~/assets/svg/rectangle-20-1.svg"
@@ -134,7 +134,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-12 col-md-6 col-lg-4"  v-show="showAll">
         <div class="card w-100">
           <img
             src="~/assets/svg/rectangle-20-4.svg"
@@ -161,12 +161,26 @@
 
     </div>
   </div>
+  <div class="text-center mt-4 pb-5">
+  <button
+    class="btn btn-profile px-4 rounded-pill"
+    @click="showAll = !showAll"
+  >
+    {{ showAll ? 'Show Less' : 'View All Doctors' }}
 
-  <div class="dots text-center mt-4">
-    <i class="bi bi-three-dots fs-1"></i>
-  </div>
+    <i
+      class="bi"
+      :class="showAll ? 'bi-chevron-up' : 'bi-chevron-down'"
+    ></i>
+  </button>
+</div>
+
+  
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import '~/assets/css/ourdoctors.css'
+
+const showAll = ref(false)
 </script>
