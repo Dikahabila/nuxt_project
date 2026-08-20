@@ -1,6 +1,7 @@
 <template>
  <Navbar />
  <HeroSection />
+ <AppointmentCards />
  <Welcome />
  <Services />
 <Specialties />
